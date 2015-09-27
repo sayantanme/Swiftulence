@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="Geovative Solutions GeoTours" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+<metadata>
+  <name>Home</name>
+  <desc>Some tourist spots of Jaipur city, India</desc>
+  <author>
+    <name>mrfixit4u, using GeoTours</name>
+    <link href="http://www.geovative.com/view?t=IHLI">
+      <text>Visit India</text>
+    </link>
+  </author>
+  <link href="http://www.geovative.com/view?t=IHLI">
+    <text>Visit India</text>
+  </link>
+  <time>2008-07-28T09:49:50</time>
+  <keywords>india
+jaipur
+touristspots</keywords>
+</metadata>
+
+
+<wpt lat="22.66144900" lon="88.41355900">
+<name>Hawa Mahal</name>
+<desc></desc>
+<sym>Waypoint</sym>
+<extensions>
+        <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd">
+            <gpxx:Proximity>152.4</gpxx:Proximity>
+            <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        </gpxx:WaypointExtension>
+</extensions>
+</wpt>
+</gpx>

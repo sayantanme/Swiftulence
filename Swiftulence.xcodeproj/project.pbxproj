@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3971E63C1BB7D70B00D49E93 /* Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3971E63B1BB7D70B00D49E93 /* Home.gpx */; };
 		398D420C1BB06BA000A80BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D420B1BB06BA000A80BB9 /* AppDelegate.swift */; };
 		398D420E1BB06BA000A80BB9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D420D1BB06BA000A80BB9 /* MapViewController.swift */; };
 		398D42111BB06BA100A80BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398D420F1BB06BA100A80BB9 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3971E63B1BB7D70B00D49E93 /* Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Home.gpx; sourceTree = "<group>"; };
 		398D42081BB06BA000A80BB9 /* Swiftulence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftulence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398D420B1BB06BA000A80BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		398D420D1BB06BA000A80BB9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		398D41FF1BB06BA000A80BB9 = {
 			isa = PBXGroup;
 			children = (
+				3971E63B1BB7D70B00D49E93 /* Home.gpx */,
 				398D420A1BB06BA000A80BB9 /* Swiftulence */,
 				398D421F1BB06BA100A80BB9 /* SwiftulenceTests */,
 				398D422A1BB06BA200A80BB9 /* SwiftulenceUITests */,
@@ -231,6 +234,7 @@
 				398D42161BB06BA100A80BB9 /* LaunchScreen.storyboard in Resources */,
 				398D42131BB06BA100A80BB9 /* Assets.xcassets in Resources */,
 				398D42111BB06BA100A80BB9 /* Main.storyboard in Resources */,
+				3971E63C1BB7D70B00D49E93 /* Home.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swiftulence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Learning.Swiftulence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swiftulence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Learning.Swiftulence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +489,7 @@
 				398D42321BB06BA200A80BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398D42331BB06BA200A80BB9 /* Build configuration list for PBXNativeTarget "SwiftulenceTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +498,7 @@
 				398D42351BB06BA200A80BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398D42361BB06BA200A80BB9 /* Build configuration list for PBXNativeTarget "SwiftulenceUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +507,7 @@
 				398D42381BB06BA200A80BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
